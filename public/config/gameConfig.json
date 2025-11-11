@@ -8,7 +8,6 @@
     "startDelay": 15000,
     "segmentDelay": 700,
     "pipePlacementDelay": 300,
-    "speedMultiplier": 1.0,
     "minRequiredLength": 6,
     "maxRequiredLength": 15,
     "maxWaterLevel": 3
@@ -19,9 +18,7 @@
     { "type": "cross", "enabled": true }
   ],
   "rules": {
-    "allowReplace": true,
     "minBlockedCells": 2,
-    "maxBlockedCells": 10,
-    "randomStart": true
+    "maxBlockedCells": 10
   }
 }
